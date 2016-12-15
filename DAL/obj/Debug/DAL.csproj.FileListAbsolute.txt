@@ -1,0 +1,10 @@
+E:\Trainings EPAM\WebApp\DAL\bin\Debug\DAL.dll.config
+E:\Trainings EPAM\WebApp\DAL\bin\Debug\DAL.dll
+E:\Trainings EPAM\WebApp\DAL\bin\Debug\DAL.pdb
+E:\Trainings EPAM\WebApp\DAL\bin\Debug\EntityFramework.dll
+E:\Trainings EPAM\WebApp\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Trainings EPAM\WebApp\DAL\bin\Debug\EntityFramework.xml
+E:\Trainings EPAM\WebApp\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Trainings EPAM\WebApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Trainings EPAM\WebApp\DAL\obj\Debug\DAL.dll
+E:\Trainings EPAM\WebApp\DAL\obj\Debug\DAL.pdb
