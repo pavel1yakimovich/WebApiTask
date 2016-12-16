@@ -24,7 +24,7 @@ namespace ClientApp.Controllers
                 try
                 {
                     response = client.GetAsync(APP_PATH + $"/api/book/{id}").Result;
-                    
+
                     response.EnsureSuccessStatusCode();
                 }
                 catch
@@ -32,7 +32,7 @@ namespace ClientApp.Controllers
                     return BadRequest();
                 }
             }
-            
+
             var jsonTask = response.Content.ReadAsAsync<Book>();
             jsonTask.Wait();
 
@@ -128,81 +128,5 @@ namespace ClientApp.Controllers
 
             return Ok(response.StatusCode);
         }
-
-
-
-
-        //public async Task<IHttpActionResult> GetAsync() 
-        //{ 
-        // HttpClient client = new HttpClient(); 
-        // HttpResponseMessage response; 
-
-        // try 
-        // { 
-        // response = await client.GetAsync("http://localhost:65355/api/Items"); 
-
-        // foreach (var item in "1qwefrwqef223") 
-        // { 
-        // var d = item; 
-        // } 
-
-        // // response = await s; 
-        // response.EnsureSuccessStatusCode(); 
-        // } 
-        // catch (Exception) 
-        // { 
-        // return BadRequest(); 
-        // } 
-
-        // return Ok(response.Content.ReadAsStringAsync()); 
-        //} 
-        // GET: api/Home/5 
-
-        //public IHttpActionResult Get(int id)
-        //{
-        //    HttpResponseMessage response;
-
-        //    using (HttpClient client = new HttpClient())
-        //    {
-        //        try
-        //        {
-        //            client.BaseAddress = new Uri("http://localhost:65355/");
-        //            response = client.GetAsync($"api/Items/{id}").Result;
-
-        //            response.EnsureSuccessStatusCode();
-        //        }
-        //        catch
-        //        {
-        //            return BadRequest();
-        //        }
-        //    }
-        //    return Ok(response.Content.ReadAsStringAsync());
-        //}
-
-        //// POST: api/Home 
-        //public IHttpActionResult Post([FromBody]object item)
-        //{
-        //    HttpResponseMessage response;
-
-        //    using (HttpClient client = new HttpClient())
-        //    {
-        //        try
-        //        {
-        //            client.BaseAddress = new Uri("http://localhost:65355/");
-
-        //            client.DefaultRequestHeaders.Accept.Add(
-        //            new MediaTypeWithQualityHeaderValue("application/json"));
-
-        //            response = client.PostAsJsonAsync($"api/Items/", item).Result;
-
-        //            //response.Result.EnsureSuccessStatusCode(); 
-        //        }
-        //        catch
-        //        {
-        //            return BadRequest();
-        //        }
-        //    }
-        //    return Ok(response.StatusCode);
-        //}
     }
 }

@@ -29,12 +29,12 @@
 
             $scope.getAll = getAll;
 
-            $scope.getById = function(id) {
+            $scope.getById = function (id) {
                 $http({
-                        method: 'get',
-                        url: '/api/book/' + id
-                    })
-                    .then(function(response) {
+                    method: 'get',
+                    url: '/api/book/' + id
+                })
+                    .then(function (response) {
                         $scope.books = [
                             {
                                 Id: response.data.Id,

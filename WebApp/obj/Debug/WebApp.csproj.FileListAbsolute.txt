@@ -30,3 +30,35 @@ E:\Trainings EPAM\WebApp\WebApp\bin\DAL.dll
 E:\Trainings EPAM\WebApp\WebApp\bin\EntityFramework.dll
 E:\Trainings EPAM\WebApp\WebApp\bin\DAL.pdb
 E:\Trainings EPAM\WebApp\WebApp\bin\EntityFramework.xml
+D:\WebApiTask\WebApp\bin\roslyn\csc.exe
+D:\WebApiTask\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WebApiTask\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebApiTask\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebApiTask\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebApiTask\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebApiTask\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebApiTask\WebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\WebApiTask\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebApiTask\WebApp\bin\roslyn\vbc.exe
+D:\WebApiTask\WebApp\bin\roslyn\VBCSCompiler.exe
+D:\WebApiTask\WebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\WebApiTask\WebApp\bin\WebApp.dll.config
+D:\WebApiTask\WebApp\bin\WebApp.dll
+D:\WebApiTask\WebApp\bin\WebApp.pdb
+D:\WebApiTask\WebApp\bin\DAL.dll
+D:\WebApiTask\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WebApiTask\WebApp\bin\Newtonsoft.Json.dll
+D:\WebApiTask\WebApp\bin\System.Net.Http.Formatting.dll
+D:\WebApiTask\WebApp\bin\System.Web.Http.dll
+D:\WebApiTask\WebApp\bin\System.Web.Http.WebHost.dll
+D:\WebApiTask\WebApp\bin\EntityFramework.dll
+D:\WebApiTask\WebApp\bin\DAL.pdb
+D:\WebApiTask\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WebApiTask\WebApp\bin\Newtonsoft.Json.xml
+D:\WebApiTask\WebApp\bin\System.Net.Http.Formatting.xml
+D:\WebApiTask\WebApp\bin\System.Web.Http.xml
+D:\WebApiTask\WebApp\bin\System.Web.Http.WebHost.xml
+D:\WebApiTask\WebApp\bin\EntityFramework.xml
+D:\WebApiTask\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+D:\WebApiTask\WebApp\obj\Debug\WebApp.dll
+D:\WebApiTask\WebApp\obj\Debug\WebApp.pdb

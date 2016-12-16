@@ -3,75 +3,80 @@
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script src="/Scripts/angular.min.js"></script>
+    <script src="/Scripts/angular/angular.min.js"></script>
     <script src="/Scripts/CustomScripts/catalog.js"></script>
+    <style>
+        html, body {
+            height: 100%;
+        }
+    </style>
 </head>
 <body ng-controller="books">
-<div style="width: 70%; height: 100%; float: left">
-    <input ng-model="searchId" placeholder="id" />
-    <button style="margin-bottom: 20px" ng-click="getById(searchId)">Get by id</button>
-    <button style="margin-bottom: 20px" ng-click="getAll()">Get all books</button>
-    <ul>
-        <li ng-repeat="book in books">
-            <p>
-                <b>Id: </b>{{book.Id}}
-            </p>
-            <p>
-                <b>Title: </b>{{book.Title}}
-            </p>
-            <p>
-                <b>Description</b>: {{book.Description}}
-            </p>
-            <p>
-                <b>Author</b>: {{book.Author}}
-            </p>
-            <p>
-                <b>Date of creation</b>: {{book.Date}}
-            </p>
-            <button style="margin-bottom: 10px" ng-click="edit(book)">Edit</button>
-            <button style="margin-bottom: 10px" ng-click="delete(book.Id)">Delete</button>
-        </li>
-    </ul>
-</div>
-<div>
-    <b>Add new book</b>
-    <form>
-        <fieldset>
-            <p>
-                <label for="newBookTitle">Title</label>
-                <input id="newBookTitle" ng-model="newBook.Title" placeholder="Title"/>
-            </p>
-            <p>
-                <label for="newBookAuthor">Author</label>
-                <input id="newBookAuthor" ng-model="newBook.Author" placeholder="Author"/>
-            </p>
-            <p>
-                <label for="newBookDescription">Description</label>
-                <input id="newBookDescription" ng-model="newBook.Description" placeholder="Description" />
-            </p>
-        </fieldset>
-        <button style="margin-bottom:20px" type="submit" ng-click="add()">Add</button>
-    </form>
-</div>
-<div ng-show="editBookFlag">
-    <b>Edit book</b>
-    <form>
-        <fieldset>
-            <p>
-                <label for="editBookTitle">Title</label>
-                <input id="editBookTitle" ng-model="editBook.Title" placeholder="Title" />
-            </p>
-            <p>
-                <label for="editBookAuthor">Author</label>
-                <input id="editBookAuthor" ng-model="editBook.Author" placeholder="Author" />
-            </p>
-            <p>
-                <label for="editBookDescription">Description</label>
-                <input id="editBookDescription" ng-model="editBook.Description" placeholder="Description" />
-            </p>
-        </fieldset>
-        <button type="submit" ng-click="submitEdit(editBook)">Save</button>
-    </form>
-</div>
+    <div style="width: 70%; height: 100%; float: left">
+        <input ng-model="searchId" placeholder="id" />
+        <button style="margin-bottom: 20px" ng-click="getById(searchId)">Get by id</button>
+        <button style="margin-bottom: 20px" ng-click="getAll()">Get all books</button>
+        <ul>
+            <li ng-repeat="book in books">
+                <p>
+                    <b>Id: </b>{{book.Id}}
+                </p>
+                <p>
+                    <b>Title: </b>{{book.Title}}
+                </p>
+                <p>
+                    <b>Description</b>: {{book.Description}}
+                </p>
+                <p>
+                    <b>Author</b>: {{book.Author}}
+                </p>
+                <p>
+                    <b>Date of creation</b>: {{book.Date}}
+                </p>
+                <button style="margin-bottom: 10px" ng-click="edit(book)">Edit</button>
+                <button style="margin-bottom: 10px" ng-click="delete(book.Id)">Delete</button>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <b>Add new book</b>
+        <form>
+            <fieldset>
+                <p>
+                    <label for="newBookTitle">Title</label>
+                    <input id="newBookTitle" ng-model="newBook.Title" placeholder="Title" />
+                </p>
+                <p>
+                    <label for="newBookAuthor">Author</label>
+                    <input id="newBookAuthor" ng-model="newBook.Author" placeholder="Author" />
+                </p>
+                <p>
+                    <label for="newBookDescription">Description</label>
+                    <input id="newBookDescription" ng-model="newBook.Description" placeholder="Description" />
+                </p>
+            </fieldset>
+            <button style="margin-bottom:20px" type="submit" ng-click="add()">Add</button>
+        </form>
+    </div>
+    <div ng-show="editBookFlag">
+        <b>Edit book</b>
+        <form>
+            <fieldset>
+                <p>
+                    <label for="editBookTitle">Title</label>
+                    <input id="editBookTitle" ng-model="editBook.Title" placeholder="Title" />
+                </p>
+                <p>
+                    <label for="editBookAuthor">Author</label>
+                    <input id="editBookAuthor" ng-model="editBook.Author" placeholder="Author" />
+                </p>
+                <p>
+                    <label for="editBookDescription">Description</label>
+                    <input id="editBookDescription" ng-model="editBook.Description" placeholder="Description" />
+                </p>
+            </fieldset>
+            <button type="submit" ng-click="submitEdit(editBook)">Save</button>
+        </form>
+    </div>
 </body>
 </html>

@@ -8,3 +8,13 @@ E:\Trainings EPAM\WebApp\DAL\bin\Debug\EntityFramework.SqlServer.xml
 E:\Trainings EPAM\WebApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 E:\Trainings EPAM\WebApp\DAL\obj\Debug\DAL.dll
 E:\Trainings EPAM\WebApp\DAL\obj\Debug\DAL.pdb
+D:\WebApiTask\DAL\bin\Debug\DAL.dll.config
+D:\WebApiTask\DAL\bin\Debug\DAL.dll
+D:\WebApiTask\DAL\bin\Debug\DAL.pdb
+D:\WebApiTask\DAL\bin\Debug\EntityFramework.dll
+D:\WebApiTask\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\WebApiTask\DAL\bin\Debug\EntityFramework.xml
+D:\WebApiTask\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\WebApiTask\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\WebApiTask\DAL\obj\Debug\DAL.dll
+D:\WebApiTask\DAL\obj\Debug\DAL.pdb
